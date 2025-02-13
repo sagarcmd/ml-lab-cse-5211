@@ -97,7 +97,7 @@ feature space best divides various classes. When there is a roughly linear conne
 
 ![image](https://github.com/user-attachments/assets/b85bbc0d-95cf-4e2a-8c7b-dbcd8d4c786b)
 
-High-dimensional datasets can benefit from linear SVC's ability to handle massive volumes of data effectively. Since it is a linear model, characteristics and classes are assumed to have a linear relationship. In spite of its ease of use, Linear SVC frequently exhibits strong performance in real-world scenarios and is extensively employed in diverse fields including bioinformatics, picture recognition, and text categorization. Linear SVC is an adaptable technique in the field of linear classification because regularization parameters may be adjusted to regulate the trade-off between attaining a large margin and reducing classification mistakes.
+High-dimensional datasets can benefit from linear SVC's ability to handle massive volumes of data effectively. Since it is a linear model, characteristics and classes are assumed to have a linear relationship. In spite of its ease of use, Linear SVC frequently exhibits strong performance in real-world scenarios and is extensively employed in diverse fields including bioinformatics, picture recognition, and text categorization. Linear SVC is an adaptable technique in the field of linear classification because regularization parameters may be adjusted to regulate the trade-off between attaining a large margin and reducing classification mistakes.<br>
 
 5. <b>XGBoost </b>
 The decision-tree based ensemble machine learning technique XGBoost uses a gradient boosting architecture. In prediction problems involving unstructured data, artificial neural networks often perform better than any other algorithms or frameworks (images, text, etc.).
