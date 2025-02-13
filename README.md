@@ -139,38 +139,38 @@ In machine learning, a tabular representation that summarizes a classification m
 it: false positives, which are wrongly anticipated positive occurrences, false negatives, which are incorrectly projected negative instances, and true positives, which are accurately predicted positive instances. The model's recall, accuracy, precision, and F1 score are all assessed using these criteria. Recall gauges the model's capacity to capture all positive occurrences, precision evaluates the model's ability to prevent false positives, and accuracy is the ratio of right forecasts to total predictions. The F1 score balances recall and accuracy by combining them into a single rating. Confusion matrices are very helpful in determining areas for improvement in classification tasks and in gauging a model's performance on particular classes.
 
 ![image](https://github.com/user-attachments/assets/88ab6bd9-bc35-4460-9267-4eae197eae6e)
-Figure : Confusion Matrix of Multinomial Naive Bayes 
+<br> Figure : Confusion Matrix of Multinomial Naive Bayes 
 
 ![image](https://github.com/user-attachments/assets/f7a62f4b-7410-458b-afbb-b22f3ccfc3ad)
-Figure : Confusion Matrix of Random Forest Classifier
+<br> Figure : Confusion Matrix of Random Forest Classifier
 
 ![image](https://github.com/user-attachments/assets/74297643-8e88-4a78-b145-54eabd15de19)
-Figure : Confusion Matrix of Logistic Regression
+<br> Figure : Confusion Matrix of Logistic Regression
 
 ![image](https://github.com/user-attachments/assets/4c2c2b35-505f-4055-a7b7-406e826ad6d1)
-Figure : Confusion Matrix of Linear SVC
+<br> Figure : Confusion Matrix of Linear SVC
 
 ![image](https://github.com/user-attachments/assets/93690b06-f2e6-4be5-8a3d-441bf3d66145)
-Figure : Confusion Matrix of XGBoost
+<br> Figure : Confusion Matrix of XGBoost
 
 # ROC-curve: 
 In machine learning, a graphical depiction known as a Receiver Operating Characteristic (ROC) curve is used to assess how well binary classification models perform. It 
 shows how, at various categorization thresholds, the true positive rate (sensitivity) and false positive rate (specificity) are traded off. Plotting these rates at different threshold levels, the curve illustrates how well the model can differentiate between positive and negative occurrences. A ROC curve reaching the upper-left corner, which denotes great sensitivity and a low false positive rate, would be indicative of an ideal model. A greater Area Under the Curve (AUC) indicates better model discrimination. The AUC measures the total performance. Because it offers a thorough understanding of a model's discriminating capacity regardless of the decision threshold selected, the ROC curve is especially helpful in situations when the class distribution is unbalanced. It helps choose the best threshold for a certain application by taking into account the intended ratio of specificity to sensitivity. 
 
 ![image](https://github.com/user-attachments/assets/9caabd97-4d77-4365-8fc8-2b09decbf9b2)
-Figure : ROC curve of Multinomial Naive Bayes 
+<br> Figure : ROC curve of Multinomial Naive Bayes 
 
 ![image](https://github.com/user-attachments/assets/0b237ba7-b02a-4687-adc1-3e780475c6d3)
-Figure : ROC curve of Random Forest Classifier     
+<br> Figure : ROC curve of Random Forest Classifier     
 
 ![image](https://github.com/user-attachments/assets/7425e5f4-3ddf-45a4-a91b-46b770db64e3)
-Figure : ROC curve of Logistic Regression 
+<br> Figure : ROC curve of Logistic Regression 
 
 ![image](https://github.com/user-attachments/assets/e122f619-cd78-4d74-8818-6107ad2744db)
-Figure : ROC curve of Linear SVC 
+<br> Figure : ROC curve of Linear SVC 
 
 ![image](https://github.com/user-attachments/assets/96f05b94-ce79-4658-b927-b8210ee80bba)
-Figure : ROC curve of XGBoost  
+<br> Figure : ROC curve of XGBoost  
 
 # Conclusion 
 To sum up, this thesis used a variety of machine learning models to explore the field of sentiment analysis on movie reviews. With an accuracy rate of more than 88%, Logistic Regression and Linear Support Vector Classifier stood out as the best algorithms. Their accomplishments highlight how important linear classification techniques are for capturing the nuanced details of cinematic emotion. The results imply that these models' linearity assumptions were appropriate for the particular patterns found in the sentiment dynamics of various movie reviews. Although XGBoost, Random Forest, and Naive Bayes all had somewhat worse results, with accuracies of 80–85%, the study emphasizes how crucial it is to choose a model that is appropriate for the dataset's complexity. In summary, this study makes a significant contribution to the area of sentiment analysis by offering a sophisticated knowledge of the effectiveness of machine learning algorithms in interpreting audience feelings in the dynamic entertainment business.     
