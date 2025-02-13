@@ -60,6 +60,7 @@ feature vector. Three distinct feature categories are examined for in the propos
 7 TF-IDF Vectorizer 
 Term Frequency - Inverse Document Frequency is referred to as TF-IDF. Term frequency is the result of dividing the total number of words in a text by the number of 
 terms that occur in it. IDF is used to reduce the size of words that often occur in manuscripts. The method's mathematical formula is as follows:
+
 ![image](https://github.com/user-attachments/assets/075151ad-2fb1-40c4-a02c-1f14e30a6a24)
 
 # Classification Model 
@@ -69,6 +70,7 @@ algorithms are LR, MNB, XGB, RF, and Linear SVC.
 A supervised learning classification approach called logistic regression is used to estimate the chance of a target variable. Due to the bidirectional structure of the 
 dependent variable, there can only be two potential classes. Therefore, don't be confused by its name. This isn't a regression procedure; it's a categorization. It is employed to estimate discrete values based on a given collection of independent variables, such as binary values like 0/1, yes/no, and true/false.  It uses logistic function fitting to estimate the likelihood of an event occurring. It is thus sometimes referred to as logistic regression. Because it forecasts the likelihood, the range of its output values is 0 to 1. Take a look at the image below for a thorough understanding of logistic regression.
 ![image](https://github.com/user-attachments/assets/35c2a3c6-076f-4459-ad03-b152076036c9)
+
 P(Y=1) is mathematically predicted by a logistic regression model as a function of X. One of the most basic machine learning algorithms, it may be applied to a number of categorization issues, including diabetes prediction and spam identification.
 
 2.  Random Forest Classifier 
@@ -88,7 +90,9 @@ P (B|A) = occurrence of predictor B given class A probability
 4. Linear SVC 
 For classification tasks, a machine learning approach called Linear Support Vector Classifier (Linear SVC) is employed. It functions by determining which hyperplane in the 
 feature space best divides various classes. When there is a roughly linear connection between characteristics and classes, linear SVC performs especially well. The algorithm's goal during training is to maximize the margin between classes, which is a measure of how far off each class's closest data points are from the hyperplane. Take a look at the image below for a thorough understanding of Linear SVC:
+
 ![image](https://github.com/user-attachments/assets/b85bbc0d-95cf-4e2a-8c7b-dbcd8d4c786b)
+
 High-dimensional datasets can benefit from linear SVC's ability to handle massive volumes of data effectively. Since it is a linear model, characteristics and classes are assumed to have a linear relationship. In spite of its ease of use, Linear SVC frequently exhibits strong performance in real-world scenarios and is extensively employed in diverse fields including bioinformatics, picture recognition, and text categorization. Linear SVC is an adaptable technique in the field of linear classification because regularization parameters may be adjusted to regulate the trade-off between attaining a large margin and reducing classification mistakes.
 
 5. XGBoost 
@@ -134,38 +138,38 @@ In machine learning, a tabular representation that summarizes a classification m
 it: false positives, which are wrongly anticipated positive occurrences, false negatives, which are incorrectly projected negative instances, and true positives, which are accurately predicted positive instances. The model's recall, accuracy, precision, and F1 score are all assessed using these criteria. Recall gauges the model's capacity to capture all positive occurrences, precision evaluates the model's ability to prevent false positives, and accuracy is the ratio of right forecasts to total predictions. The F1 score balances recall and accuracy by combining them into a single rating. Confusion matrices are very helpful in determining areas for improvement in classification tasks and in gauging a model's performance on particular classes.
 
 ![image](https://github.com/user-attachments/assets/88ab6bd9-bc35-4460-9267-4eae197eae6e)
-                    Figure : Confusion Matrix of Multinomial Naive Bayes 
+Figure : Confusion Matrix of Multinomial Naive Bayes 
 
 ![image](https://github.com/user-attachments/assets/f7a62f4b-7410-458b-afbb-b22f3ccfc3ad)
-                   Figure : Confusion Matrix of Random Forest Classifier
+Figure : Confusion Matrix of Random Forest Classifier
 
 ![image](https://github.com/user-attachments/assets/74297643-8e88-4a78-b145-54eabd15de19)
-                  Figure : Confusion Matrix of Logistic Regression
+Figure : Confusion Matrix of Logistic Regression
 
 ![image](https://github.com/user-attachments/assets/4c2c2b35-505f-4055-a7b7-406e826ad6d1)
-                  Figure : Confusion Matrix of Linear SVC
+Figure : Confusion Matrix of Linear SVC
 
 ![image](https://github.com/user-attachments/assets/93690b06-f2e6-4be5-8a3d-441bf3d66145)
-                  Figure : Confusion Matrix of XGBoost
+Figure : Confusion Matrix of XGBoost
 
 # ROC-curve: 
 In machine learning, a graphical depiction known as a Receiver Operating Characteristic (ROC) curve is used to assess how well binary classification models perform. It 
 shows how, at various categorization thresholds, the true positive rate (sensitivity) and false positive rate (specificity) are traded off. Plotting these rates at different threshold levels, the curve illustrates how well the model can differentiate between positive and negative occurrences. A ROC curve reaching the upper-left corner, which denotes great sensitivity and a low false positive rate, would be indicative of an ideal model. A greater Area Under the Curve (AUC) indicates better model discrimination. The AUC measures the total performance. Because it offers a thorough understanding of a model's discriminating capacity regardless of the decision threshold selected, the ROC curve is especially helpful in situations when the class distribution is unbalanced. It helps choose the best threshold for a certain application by taking into account the intended ratio of specificity to sensitivity. 
 
 ![image](https://github.com/user-attachments/assets/9caabd97-4d77-4365-8fc8-2b09decbf9b2)
-                Figure : ROC curve of Multinomial Naive Bayes 
+Figure : ROC curve of Multinomial Naive Bayes 
 
 ![image](https://github.com/user-attachments/assets/0b237ba7-b02a-4687-adc1-3e780475c6d3)
-                Figure : ROC curve of Random Forest Classifier     
+Figure : ROC curve of Random Forest Classifier     
 
 ![image](https://github.com/user-attachments/assets/7425e5f4-3ddf-45a4-a91b-46b770db64e3)
-                Figure : ROC curve of Logistic Regression 
+Figure : ROC curve of Logistic Regression 
 
 ![image](https://github.com/user-attachments/assets/e122f619-cd78-4d74-8818-6107ad2744db)
-                Figure : ROC curve of Linear SVC 
+Figure : ROC curve of Linear SVC 
 
 ![image](https://github.com/user-attachments/assets/96f05b94-ce79-4658-b927-b8210ee80bba)
-                Figure : ROC curve of XGBoost  
+Figure : ROC curve of XGBoost  
 
 # Conclusion 
 To sum up, this thesis used a variety of machine learning models to explore the field of sentiment analysis on movie reviews. With an accuracy rate of more than 88%, Logistic Regression and Linear Support Vector Classifier stood out as the best algorithms. Their accomplishments highlight how important linear classification techniques are for capturing the nuanced details of cinematic emotion. The results imply that these models' linearity assumptions were appropriate for the particular patterns found in the sentiment dynamics of various movie reviews. Although XGBoost, Random Forest, and Naive Bayes all had somewhat worse results, with accuracies of 80–85%, the study emphasizes how crucial it is to choose a model that is appropriate for the dataset's complexity. In summary, this study makes a significant contribution to the area of sentiment analysis by offering a sophisticated knowledge of the effectiveness of machine learning algorithms in interpreting audience feelings in the dynamic entertainment business.     
