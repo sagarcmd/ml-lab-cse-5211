@@ -181,7 +181,7 @@ The work creates opportunities for further investigation into the field of machi
 [1] Baid, P., Gupta, A., & Chaplot, N. (2017, December 15). Sentiment Analysis of Movie Reviews using Machine Learning Techniques. International Journal of Computer Applications, 179(7), 45–49.  
 [2] Sharma, H., Pangaonkar, S., Gunjan, R., & Rokade, P. (2023, June 1). Sentimental Analysis of Movie Reviews Using Machine Learning | ITM Web of Conferences. Sentimental Analysis of Movie Reviews Using Machine Learning | ITM Web of Conferences.  
 [3] Kari, Hemanth Kumar. "Sentimental Analysis of Movie Tweet Reviews Using Machine Learning Algorithms." (2024). Proceedings of the 57th Hawaii International Conference on 
-System Sciences.
+System Sciences.<br>
 [4] Dashtipour, K., Gogate, M., Adeel, A., Larijani, H., & Hussain, A. (2021, May 12). Sentiment Analysis of Persian Movie Reviews Using Deep Learning. MDPI.  
 [5] R. R. Chowdhury, M. Shahadat Hossain, S. Hossain and K. Andersson, "Analyzing Sentiment of Movie Reviews in Bangla by Applying Machine Learning Techniques," 2019 
 International Conference on Bangla Speech and Language Processing (ICBSLP), Sylhet, Bangladesh, 2019, pp. 1-6, 
