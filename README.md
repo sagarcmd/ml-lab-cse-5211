@@ -18,6 +18,10 @@ The aim of this project is to utilize cutting-edge machine learning methods to e
 Movies are a big deal, and what people say about them matters a lot. Anyone may use the internet to evaluate movies and share their opinions with others. The problem, though, is that there are a ton of reviews online, making it difficult for filmmakers to know what people actually think. Furthermore, as people express their emotions in different ways, some evaluations might be challenging. Additionally, in order to gain a deeper understanding of these reviews, we must select the appropriate machine learning techniques. It's also true that various people have diverse tastes in movies, which comes in a variety of forms. Therefore, it can be challenging to gauge 
 how different types of movies affect different people. 
 
+# Motivation  
+This project uses five different sentiment analysis approaches on movie reviews to address the changing dynamics of audience sentiment in the digital era. Given the significant influence of user-generated information on the formation of cinematic perceptions, it is critical to comprehend the complex emotions conveyed in reviews. The study seeks to offer insightful information about the emotional impact of films to reviewers, directors, and the film industry as a whole. We want to determine which approaches—machine learning, natural language processing, deep learning, lexicon-based methods, and ensemble techniques—are most useful for identifying sentiments. This work advances our understanding of the complex interaction between audience emotions and cinematic experiences, which informs future developments in this vital nexus of entertainment and technology. It also makes a contribution to the field of 
+sentiment analysis.
+
 # Objective of this Research 
 The primary goal of this study is to develop an effective model for sentiment analysis based on movie review. In order to achieve this goal, the other goals are: 
 1 To predict the type of a movie upon reading the review of that movie. 
