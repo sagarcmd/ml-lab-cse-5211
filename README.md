@@ -82,7 +82,7 @@ the majority of votes, as opposed to relying just on one call tree. The Random F
 
 ![image](https://github.com/user-attachments/assets/96e2728d-ceb1-4c94-91d7-7d8876708255)
 
-4. <b>Multinomial-Naive-Bayes </b>
+3. <b>Multinomial-Naive-Bayes </b>
 A probabilistic learning technique that is primarily utilized in natural language processing (NLP) is the Multinomial Naive Bayes algorithm. The method guesses the tag of a text, such as an email or newspaper article, and is based on the Bayes theorem. It determines each tag's likelihood for a given sample and outputs the tag with the highest probability. The Naive Bayes classifier is a group of many algorithms that are united by the idea that each feature being categorized is independent of every other feature. The other feature's presence or absence is unaffected by the existence of one feature. When dealing with situations involving numerous classes and text data processing, Naive Bayes is a potent method. Since the Naive Bayes theorem depends on the notion of the Bayes theorem, it is crucial to comprehend it before attempting to comprehend how the latter works. Thomas Bayes developed the Bayes theorem, which determines the likelihood of an event happening based on knowledge of its relevant circumstances in the 
 past. It is predicated on the subsequent equation:
 p(A|B) = p(A) * p(B|A)/p(B)
@@ -91,7 +91,7 @@ P (A) = prior probability of class A
 P (B) = prior probability of B  
 P (B|A) = occurrence of predictor B given class A probability
 
-5. <b>Linear SVC </b>
+4. <b>Linear SVC </b>
 For classification tasks, a machine learning approach called Linear Support Vector Classifier (Linear SVC) is employed. It functions by determining which hyperplane in the 
 feature space best divides various classes. When there is a roughly linear connection between characteristics and classes, linear SVC performs especially well. The algorithm's goal during training is to maximize the margin between classes, which is a measure of how far off each class's closest data points are from the hyperplane. Take a look at the image below for a thorough understanding of Linear SVC:
 
@@ -113,7 +113,7 @@ by XGBoost to address different types of sparsity patterns in the data.
 
 # Required Tools and Technologies 
 # Programming Language
-1.  Python
+1.  <b>Python</b>
    For all of my work, i using Python 3.7 as our programming language. It's an amazing language. Python has many resources and has the potential to be a very strong artificial language. Its extensive application in AI, deep learning, machine learning, and knowledge science. 
  -  Pandas: Pandas is a Python language library function.  Pandas is the preferred tool for manipulating and analyzing data. Wes McKinney created the sophisticated information manipulation tool known as Pandas. Its fundamental structure is known as the Data Frame, and it is based on the NumPy library. With rows of observations and columns of variables, the Data Frame facilitates the manipulation and archiving of tabular data.
  -   Sklearn: An estimator for classification in Scikit-learn may be a Python object that uses the fit(X, y) and predict (T) methods. An exemplar of an estimator is the 
