@@ -1,7 +1,7 @@
 # ml-lab-cse-5211
 # Project Name: Sentiment Analysis on Movie Reviews using Machine Learning Techniques
 Supervised By:
-Md. Mynoddin
+Md. Mynoddin <br>
 Assistant Professor
 Department of  CSE
 
