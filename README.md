@@ -23,10 +23,10 @@ This project uses five different sentiment analysis approaches on movie reviews 
 sentiment analysis.
 
 # Objective of this Research 
-The primary goal of this study is to develop an effective model for sentiment analysis based on movie review. In order to achieve this goal, the other goals are: 
-1 To predict the type of a movie upon reading the review of that movie. 
-2 To determine the degree to which the public views the film based on reviews. 
-3 To evaluate the mood in relation to the audience's reaction. 
+The primary goal of this study is to develop an effective model for sentiment analysis based on movie review. In order to achieve this goal, the other goals are: <br>
+1 To predict the type of a movie upon reading the review of that movie. <br>
+2 To determine the degree to which the public views the film based on reviews.<br> 
+3 To evaluate the mood in relation to the audience's reaction. <br>
 4 To enhance the marketing initiatives.
 
 # Methodology 
