@@ -40,28 +40,27 @@ The dataset was obtained from the well-known data science and machine learning r
 After collecting data, i have to preprocess this dataset. For preprocessing part, i used: <br>
 1 <b>Removing Punctuations:</b> Now, remove all punctuation. Which in the categorization portion is completely pointless. Thus, I create a dataset without of 
   punctuation. <br>
-2 Removing digit: Remove All Digits Like: 0,1,2,3,4,5,6,7,8,9 <br>
-3 Removing Stopwords: Stopwords mainly meaningless words. So, i removed all Stopwords. <br>
+2 <b>Removing digit:</b> Remove All Digits Like: 0,1,2,3,4,5,6,7,8,9 <br>
+3 <b>Removing Stopwords:</b> Stopwords mainly meaningless words. So, i removed all Stopwords. <br>
 That‘s are: <br>
 [ ‗i‘,‘ ‗me‘, ‗my‘, ‗myself‘, ‗we‘, ‗our‘, ‗ours‘, ‗you‘, ‗your‘, ‗he‘, ‗him‘, ‗his‘, ‗it‘, <br>
 ‗its‘, ‗who‘, ‗which‘ ‗is‘, ‗are‘, ‗was‘, ‗be‘, ‗have‘, ‗has‘, ‗do‘, ‗a‘, ‗an‘, ‗the‘……]  <br>
-4 Stemming: The technique of stemming involves returning words with variation to their basic forms. I stem my dataset utilizing the stemming procedure, which turns every remark included in the dataset into a root word. displaying a sample of my dataset's stemming effects:<br>
+4 <b>Stemming:</b> The technique of stemming involves returning words with variation to their basic forms. I stem my dataset utilizing the stemming procedure, which turns every remark included in the dataset into a root word. displaying a sample of my dataset's stemming effects:<br>
 
 ![image](https://github.com/user-attachments/assets/f84fc3cf-9d47-4389-ac8f-b55bd0fa8876)
 
-5 Lemmatization : Lemmatization is a linguistic process that unifies word variants by reducing words to their basic or root form, or lemma. Lemmatization takes the 
+5 <b>Lemmatization :</b> Lemmatization is a linguistic process that unifies word variants by reducing words to their basic or root form, or lemma. Lemmatization takes the 
 word's context and grammatical structure into account, in contrast to stemming. 
 
 ![image](https://github.com/user-attachments/assets/f9fbaac0-1f78-4f46-a8c2-ed8185caa4f0)
 
-6 Feature-Extraction 
-Every text is represented in feature extraction as a collection of features known as a 
-feature vector. Three distinct feature categories are examined for in the proposed model. 
+6 <b>Feature-Extraction</b> 
+Every text is represented in feature extraction as a collection of features known as a feature vector. Three distinct feature categories are examined for in the proposed model. 
 1. Unigram with TF-IDF.  
 2. Bigram with TF-IDF 
 3. Trigram with TF-IDF
 
-7 TF-IDF Vectorizer 
+7 <b>TF-IDF Vectorizer:</b> 
 Term Frequency - Inverse Document Frequency is referred to as TF-IDF. Term frequency is the result of dividing the total number of words in a text by the number of 
 terms that occur in it. IDF is used to reduce the size of words that often occur in manuscripts. The method's mathematical formula is as follows:
 
@@ -70,20 +69,20 @@ terms that occur in it. IDF is used to reduce the size of words that often occur
 # Classification Model 
 An overview of the algorithms i frequently used for my thesis work is given in this section. Then often test five machine learning algorithms on my system. These five 
 algorithms are LR, MNB, XGB, RF, and Linear SVC.
-1.  Logistic-Regression  
+1.  <b>Logistic-Regression</b>  
 A supervised learning classification approach called logistic regression is used to estimate the chance of a target variable. Due to the bidirectional structure of the 
 dependent variable, there can only be two potential classes. Therefore, don't be confused by its name. This isn't a regression procedure; it's a categorization. It is employed to estimate discrete values based on a given collection of independent variables, such as binary values like 0/1, yes/no, and true/false.  It uses logistic function fitting to estimate the likelihood of an event occurring. It is thus sometimes referred to as logistic regression. Because it forecasts the likelihood, the range of its output values is 0 to 1. Take a look at the image below for a thorough understanding of logistic regression.
 ![image](https://github.com/user-attachments/assets/35c2a3c6-076f-4459-ad03-b152076036c9)
 
 P(Y=1) is mathematically predicted by a logistic regression model as a function of X. One of the most basic machine learning algorithms, it may be applied to a number of categorization issues, including diabetes prediction and spam identification.
 
-2.  Random Forest Classifier 
+2.  <b>Random Forest Classifier </b>
 Popular machine learning method Random Forest is a member of the supervised learning approach. It may be applied to ML issues involving both classification and regression. Its foundation is the idea of ensemble learning, which is the act of merging several classifiers to solve a challenging issue and enhance the model's functionality. According to its name, "Random Forest could be a classifier that contains variety of call trees on numerous subsets of the given 5 dataset and takes the common to boost the prophetic accuracy of that dataset." The random forest forecasts the final result by taking the predictions from each call tree and supporting them with 
 the majority of votes, as opposed to relying just on one call tree. The Random Forest method is explained in the image below:
 
 ![image](https://github.com/user-attachments/assets/96e2728d-ceb1-4c94-91d7-7d8876708255)
 
-4. Multinomial-Naive-Bayes 
+4. <b>Multinomial-Naive-Bayes </b>
 A probabilistic learning technique that is primarily utilized in natural language processing (NLP) is the Multinomial Naive Bayes algorithm. The method guesses the tag of a text, such as an email or newspaper article, and is based on the Bayes theorem. It determines each tag's likelihood for a given sample and outputs the tag with the highest probability. The Naive Bayes classifier is a group of many algorithms that are united by the idea that each feature being categorized is independent of every other feature. The other feature's presence or absence is unaffected by the existence of one feature. When dealing with situations involving numerous classes and text data processing, Naive Bayes is a potent method. Since the Naive Bayes theorem depends on the notion of the Bayes theorem, it is crucial to comprehend it before attempting to comprehend how the latter works. Thomas Bayes developed the Bayes theorem, which determines the likelihood of an event happening based on knowledge of its relevant circumstances in the 
 past. It is predicated on the subsequent equation:
 p(A|B) = p(A) * p(B|A)/p(B)
@@ -92,7 +91,7 @@ P (A) = prior probability of class A
 P (B) = prior probability of B  
 P (B|A) = occurrence of predictor B given class A probability
 
-5. Linear SVC 
+5. <b>Linear SVC </b>
 For classification tasks, a machine learning approach called Linear Support Vector Classifier (Linear SVC) is employed. It functions by determining which hyperplane in the 
 feature space best divides various classes. When there is a roughly linear connection between characteristics and classes, linear SVC performs especially well. The algorithm's goal during training is to maximize the margin between classes, which is a measure of how far off each class's closest data points are from the hyperplane. Take a look at the image below for a thorough understanding of Linear SVC:
 
@@ -100,7 +99,7 @@ feature space best divides various classes. When there is a roughly linear conne
 
 High-dimensional datasets can benefit from linear SVC's ability to handle massive volumes of data effectively. Since it is a linear model, characteristics and classes are assumed to have a linear relationship. In spite of its ease of use, Linear SVC frequently exhibits strong performance in real-world scenarios and is extensively employed in diverse fields including bioinformatics, picture recognition, and text categorization. Linear SVC is an adaptable technique in the field of linear classification because regularization parameters may be adjusted to regulate the trade-off between attaining a large margin and reducing classification mistakes.
 
-5. XGBoost 
+5. <b>XGBoost </b>
 The decision-tree based ensemble machine learning technique XGBoost uses a gradient boosting architecture. In prediction problems involving unstructured data, artificial neural networks often perform better than any other algorithms or frameworks (images, text, etc.).
 For small- to medium-sized structured/tabular data, decision tree-based algorithms are now regarded as best-in-class. Please see the graph below for an overview of the 
 evolution of tree-based algorithms over time. XGBoost is a popular gradient boosting program. Let's discuss some of the features of XGBoost that make it so fascinating. 
