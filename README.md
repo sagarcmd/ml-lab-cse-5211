@@ -37,15 +37,15 @@ I gathered data from Kaggle. Then used regular expressions to clean up our data.
 The dataset was obtained from the well-known data science and machine learning resource site Kaggle. The dataset was chosen to ensure it included the characteristics and information needed for analysis, considering its relevance to my study subject. For my project, Kaggle offers a wide variety of community-contributed datasets, giving me access to a high-quality and thoroughly described dataset. Through exploratory data analysis and background investigation, the data's quality and dependability were confirmed once it was downloaded utilizing Kaggle's userfriendly interface. This dataset provides a solid basis for my study by enabling in-depth examination and significant insights into the selected topic. In this dataset there are 50000 reviews of movie. Out of 50000 reviews, 25000 reviews are positive and rest of the 25000 are negative sentimental review. 
 
 #  Data Pre-Processing 
-After collecting data, i have to preprocess this dataset. For preprocessing part, i used: 
+After collecting data, i have to preprocess this dataset. For preprocessing part, i used: <br>
 1 Removing Punctuations: Now, remove all punctuation. Which in the categorization portion is completely pointless. Thus, I create a dataset without of 
-  punctuation. 
-2 Removing digit: Remove All Digits Like: 0,1,2,3,4,5,6,7,8,9 
-3 Removing Stopwords: Stopwords mainly meaningless words. So, i removed all Stopwords. 
-That‘s are: 
-[ ‗i‘,‘ ‗me‘, ‗my‘, ‗myself‘, ‗we‘, ‗our‘, ‗ours‘, ‗you‘, ‗your‘, ‗he‘, ‗him‘, ‗his‘, ‗it‘, 
-‗its‘, ‗who‘, ‗which‘ ‗is‘, ‗are‘, ‗was‘, ‗be‘, ‗have‘, ‗has‘, ‗do‘, ‗a‘, ‗an‘, ‗the‘……]  
-4 Stemming: The technique of stemming involves returning words with variation to their basic forms. I stem my dataset utilizing the stemming procedure, which turns every remark included in the dataset into a root word. displaying a sample of my dataset's stemming effects:
+  punctuation. <br>
+2 Removing digit: Remove All Digits Like: 0,1,2,3,4,5,6,7,8,9 <br>
+3 Removing Stopwords: Stopwords mainly meaningless words. So, i removed all Stopwords. <br>
+That‘s are: <br>
+[ ‗i‘,‘ ‗me‘, ‗my‘, ‗myself‘, ‗we‘, ‗our‘, ‗ours‘, ‗you‘, ‗your‘, ‗he‘, ‗him‘, ‗his‘, ‗it‘, <br>
+‗its‘, ‗who‘, ‗which‘ ‗is‘, ‗are‘, ‗was‘, ‗be‘, ‗have‘, ‗has‘, ‗do‘, ‗a‘, ‗an‘, ‗the‘……]  <br>
+4 Stemming: The technique of stemming involves returning words with variation to their basic forms. I stem my dataset utilizing the stemming procedure, which turns every remark included in the dataset into a root word. displaying a sample of my dataset's stemming effects:<br>
 
 ![image](https://github.com/user-attachments/assets/f84fc3cf-9d47-4389-ac8f-b55bd0fa8876)
 
