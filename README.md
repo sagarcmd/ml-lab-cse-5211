@@ -38,7 +38,7 @@ The dataset was obtained from the well-known data science and machine learning r
 
 #  Data Pre-Processing 
 After collecting data, i have to preprocess this dataset. For preprocessing part, i used: <br>
-1 Removing Punctuations: Now, remove all punctuation. Which in the categorization portion is completely pointless. Thus, I create a dataset without of 
+1 <b>Removing Punctuations:</b> Now, remove all punctuation. Which in the categorization portion is completely pointless. Thus, I create a dataset without of 
   punctuation. <br>
 2 Removing digit: Remove All Digits Like: 0,1,2,3,4,5,6,7,8,9 <br>
 3 Removing Stopwords: Stopwords mainly meaningless words. So, i removed all Stopwords. <br>
