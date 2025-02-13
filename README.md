@@ -103,13 +103,13 @@ High-dimensional datasets can benefit from linear SVC's ability to handle massiv
 The decision-tree based ensemble machine learning technique XGBoost uses a gradient boosting architecture. In prediction problems involving unstructured data, artificial neural networks often perform better than any other algorithms or frameworks (images, text, etc.).
 For small- to medium-sized structured/tabular data, decision tree-based algorithms are now regarded as best-in-class. Please see the graph below for an overview of the 
 evolution of tree-based algorithms over time. XGBoost is a popular gradient boosting program. Let's discuss some of the features of XGBoost that make it so fascinating. 
-1. Regularization: XGBoost may use both L1 and L2 regularization to punish complex models. Regularization can help prevent overfitting.  
-2. Handling sparse data: Missing values or data processing techniques like one-hot encoding cause data to become sparse. A sparsity-aware split discovery approach is used 
+   - Regularization: XGBoost may use both L1 and L2 regularization to punish complex models. Regularization can help prevent overfitting.  
+   - Handling sparse data: Missing values or data processing techniques like one-hot encoding cause data to become sparse. A sparsity-aware split discovery approach is used 
 by XGBoost to address different types of sparsity patterns in the data.  
-3. Weighted quantile sketch: Most existing tree-based algorithms can find the split sites (using quantile sketch technique) when the data points have equal weights. Still, they are unable to handle weighted data. 
-4. Block structure for parallel learning: This is made feasible by the system's block structure. Data is stored in memory using blocks that are classified.  
-5. Cache awareness: Non-contiguous memory access is required for XGBoost to acquire the gradient statistics per row index. As a result, XGBoost was developed to fully use the hardware. Each thread allots internal buffers to store the gradient statistics in order to do this.  
-6. Out-of-core computing: This feature maximizes the utilization of the available disk space and increases its efficiency while working with huge datasets that cannot fit in memory.
+   - Weighted quantile sketch: Most existing tree-based algorithms can find the split sites (using quantile sketch technique) when the data points have equal weights. Still, they are unable to handle weighted data. 
+   - Block structure for parallel learning: This is made feasible by the system's block structure. Data is stored in memory using blocks that are classified.  
+   - Cache awareness: Non-contiguous memory access is required for XGBoost to acquire the gradient statistics per row index. As a result, XGBoost was developed to fully use the hardware. Each thread allots internal buffers to store the gradient statistics in order to do this.  
+   - Out-of-core computing: This feature maximizes the utilization of the available disk space and increases its efficiency while working with huge datasets that cannot fit in memory.
 
 # Required Tools and Technologies 
 # Programming Language
