@@ -76,9 +76,10 @@ P(Y=1) is mathematically predicted by a logistic regression model as a function 
 2.  Random Forest Classifier 
 Popular machine learning method Random Forest is a member of the supervised learning approach. It may be applied to ML issues involving both classification and regression. Its foundation is the idea of ensemble learning, which is the act of merging several classifiers to solve a challenging issue and enhance the model's functionality. According to its name, "Random Forest could be a classifier that contains variety of call trees on numerous subsets of the given 5 dataset and takes the common to boost the prophetic accuracy of that dataset." The random forest forecasts the final result by taking the predictions from each call tree and supporting them with 
 the majority of votes, as opposed to relying just on one call tree. The Random Forest method is explained in the image below:
+
 ![image](https://github.com/user-attachments/assets/96e2728d-ceb1-4c94-91d7-7d8876708255)
 
-3. Multinomial-Naive-Bayes 
+4. Multinomial-Naive-Bayes 
 A probabilistic learning technique that is primarily utilized in natural language processing (NLP) is the Multinomial Naive Bayes algorithm. The method guesses the tag of a text, such as an email or newspaper article, and is based on the Bayes theorem. It determines each tag's likelihood for a given sample and outputs the tag with the highest probability. The Naive Bayes classifier is a group of many algorithms that are united by the idea that each feature being categorized is independent of every other feature. The other feature's presence or absence is unaffected by the existence of one feature. When dealing with situations involving numerous classes and text data processing, Naive Bayes is a potent method. Since the Naive Bayes theorem depends on the notion of the Bayes theorem, it is crucial to comprehend it before attempting to comprehend how the latter works. Thomas Bayes developed the Bayes theorem, which determines the likelihood of an event happening based on knowledge of its relevant circumstances in the 
 past. It is predicated on the subsequent equation:
 p(A|B) = p(A) * p(B|A)/p(B)
@@ -87,7 +88,7 @@ P (A) = prior probability of class A
 P (B) = prior probability of B  
 P (B|A) = occurrence of predictor B given class A probability
 
-4. Linear SVC 
+5. Linear SVC 
 For classification tasks, a machine learning approach called Linear Support Vector Classifier (Linear SVC) is employed. It functions by determining which hyperplane in the 
 feature space best divides various classes. When there is a roughly linear connection between characteristics and classes, linear SVC performs especially well. The algorithm's goal during training is to maximize the margin between classes, which is a measure of how far off each class's closest data points are from the hyperplane. Take a look at the image below for a thorough understanding of Linear SVC:
 
