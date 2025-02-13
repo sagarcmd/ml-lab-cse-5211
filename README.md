@@ -1,13 +1,13 @@
 # ml-lab-cse-5211
 # Project Name: Sentiment Analysis on Movie Reviews using Machine Learning Techniques
-Supervised By:
+Supervised By:<br>
 Md. Mynoddin <br>
-Assistant Professor
+Assistant Professor<br>
 Department of  CSE
 
-Submitted By:
-Team Name: Nexus
-Sagar Mohajan (2018-15-01)
+Submitted By:<br>
+Team Name: Nexus<br>
+Sagar Mohajan (2018-15-01)<br>
 Momotaj jahan moon  (2018-15-42)
 
 # Overview 
